@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bio C\'Bnine</string>
+    <string name="tab_text_1">Historique</string>
+    <string name="tab_text_2">Les plats préférés</string>
+    <string name="tab_text_3">Carte Bio C\'Bnine</string>
+    <string name="tab_text_4">Faire les courses</string>
+    <string name="tab_text_5">Récapitulatif</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="authentification_button">S\'authentifier</string>
+    <string name="appel_button">Appeler Serveur</string>
+    <string name="entree_button">Entrées</string>
+    <string name="plat_button">Viandes</string>
+    <string name="dessert_button">Desserts</string>
+    <string name="boisson_button">Boissons</string>
+    <string name="alergene_button">Allergènes</string>
+
+    <string name="selection_text">Total selection : </string>
+    <string name="a_regler"> A régler : </string>
+
+    <string name="prix_list">Prix : </string>
+</resources>

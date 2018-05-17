@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_accueil"
+    >
+
+
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="955dp"
+    android:layout_height="192dp"
+    android:layout_marginBottom="30dp"
+    android:layout_marginEnd="131dp"
+    android:layout_marginLeft="194dp"
+    android:layout_marginRight="131dp"
+    android:layout_marginStart="194dp"
+    android:layout_marginTop="121dp"
+    app:layout_constraintBottom_toTopOf="@+id/linearLayout1"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="366dp"
+        android:layout_height="123dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="341dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="32dp"
+        android:text="Bienvenue Chez Bio C' Bnine"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</android.support.constraint.ConstraintLayout>
+
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginBottom="197dp"
+    android:layout_marginEnd="232dp"
+    android:layout_marginStart="232dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="382dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="23dp"
+        android:text="Accéderà la carte"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_manger"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_manger"
+        android:layout_width="135dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="182dp"
+        android:text="Manger !"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--<Button-->
+    <!--android:id="@+id/button1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="8dp"-->
+    <!--android:layout_marginEnd="8dp"-->
+    <!--android:layout_marginStart="296dp"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:text="Button"-->
+    <!--android:onClick="GoToMenuPrincipal"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintHorizontal_bias="0.61"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+    <!--app:layout_constraintVertical_bias="0.491" />-->
+</android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

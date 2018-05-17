@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout2">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview_allergene"></ListView>
+    <!--<TextView-->
+        <!--android:id="@+id/textView2"-->
+        <!--android:layout_width="615dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_marginEnd="436dp"-->
+        <!--android:layout_marginTop="32dp"-->
+        <!--android:text="Veuillez selectionner le produit auxquels vous etes allergique"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/imageButton2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="228dp"-->
+        <!--android:layout_marginEnd="96dp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/imageButton3"-->
+        <!--app:srcCompat="@mipmap/ic_launcher_round" />-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/imageView31"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="404dp"-->
+        <!--android:layout_marginTop="216dp"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:srcCompat="@mipmap/ic_launcher" />-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/imageView30"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="352dp"-->
+        <!--android:layout_marginEnd="108dp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/imageView31"-->
+        <!--app:srcCompat="@mipmap/ic_launcher" />-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/imageView29"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="352dp"-->
+        <!--android:layout_marginEnd="112dp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/imageView30"-->
+        <!--app:srcCompat="@mipmap/ic_launcher" />-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/imageView28"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="120dp"-->
+        <!--android:layout_marginTop="216dp"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/imageView29"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:srcCompat="@mipmap/ic_launcher_round" />-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/imageButton4"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="164dp"-->
+        <!--android:layout_marginEnd="124dp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/imageButton"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/imageView26"-->
+        <!--app:srcCompat="@mipmap/ic_launcher_round" />-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/imageView26"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="164dp"-->
+        <!--android:layout_marginEnd="96dp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/imageButton2"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/imageView25"-->
+        <!--app:srcCompat="@mipmap/ic_launcher" />-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/imageView25"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="93dp"-->
+        <!--android:layout_marginBottom="164dp"-->
+        <!--android:layout_marginEnd="512dp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/imageButton3"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:srcCompat="@mipmap/ic_launcher" />-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/imageButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="228dp"-->
+        <!--android:layout_marginEnd="128dp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/imageButton2"-->
+        <!--app:srcCompat="@mipmap/ic_launcher_round" />-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/imageButton3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="228dp"-->
+        <!--android:layout_marginEnd="500dp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:srcCompat="@mipmap/ic_launcher_round" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button"-->
+        <!--android:layout_width="127dp"-->
+        <!--android:layout_height="58dp"-->
+        <!--android:text="OK"-->
+        <!--tools:layout_editor_absoluteX="729dp"-->
+        <!--tools:layout_editor_absoluteY="555dp" />-->
+</RelativeLayout>

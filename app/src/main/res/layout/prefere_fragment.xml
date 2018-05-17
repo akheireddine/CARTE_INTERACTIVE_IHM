@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="174dp"
+        android:layout_height="560dp"
+        android:background="@drawable/border_style"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/entrees"
+            style="@android:style/Widget.Holo.Light.Button.Inset"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/entree_button"
+            android:textColor="#FFFF"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/viandes"
+            style="@android:style/Widget.Holo.Light.Button.Inset"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="#FFFF"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:text="@string/plat_button" />
+
+        <Button
+            android:id="@+id/desserts"
+            style="@android:style/Widget.Holo.Light.Button.Inset"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="#FFFF"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:text="@string/dessert_button" />
+
+
+    </LinearLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/tableau_plat_prefere"
+        android:layout_width="1100dp"
+        android:layout_height="562dp"
+        android:background="@drawable/border_style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

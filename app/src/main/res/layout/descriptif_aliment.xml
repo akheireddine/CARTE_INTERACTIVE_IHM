@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="611dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/border_style">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="114dp"
+            android:layout_height="38dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="84dp"
+            android:background="#a9c7c1b7"
+            android:text="Origine  :     Espagne"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView3"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="104dp"
+            android:layout_height="22dp"
+            android:layout_marginBottom="108dp"
+            android:layout_marginStart="84dp"
+            android:background="#a9c7c1b7"
+            android:text="Conservation :"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <TextView
+            android:id="@+id/titreDescription"
+            android:layout_width="400dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="176dp"
+            android:layout_marginTop="40dp"
+            android:background="#a9c7c1b7"
+            android:text="TextView"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:layout_width="400dp"
+            android:layout_height="319dp"
+            android:layout_marginBottom="188dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.423"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/imageViewDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/bananes" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/prixDescription"
+            android:layout_width="121dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="116dp"
+            android:layout_marginStart="460dp"
+            android:background="#a9c7c1b7"
+            android:text="@string/prix_list"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/ajouter_aliment"
+            android:layout_width="134dp"
+            android:layout_height="64dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginStart="272dp"
+            android:text="Ajouter au panier (1Kg)"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="273dp"-->
+        <!--android:layout_height="55dp"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:layout_marginEnd="148dp"-->
+        <!--android:orientation="horizontal"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent">-->
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/deleteAliment"-->
+        <!--android:layout_width="249dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--app:srcCompat="@android:drawable/presence_busy" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/nbKg"-->
+        <!--android:layout_width="217dp"-->
+        <!--android:layout_height="43dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@android:color/background_light"-->
+        <!--android:text="0"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+        <!--android:textSize="24sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/addAliment"-->
+        <!--android:layout_width="267dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:contentDescription="addKg"-->
+        <!--app:srcCompat="@android:drawable/ic_input_add" />-->
+
+        <!--</LinearLayout>-->
+
+
+    </android.support.constraint.ConstraintLayout>
+</RelativeLayout>
